@@ -67,6 +67,39 @@ The project showcases a modern interactive webpage with features like adding tas
 * JavaScript DOM Manipulation
 * Interactive User Interface
 
+# Task-4 Project Title
+
+Form Design and Validation Project
+
+# Description
+
+This is a responsive Form Validation web application developed using HTML5, CSS3, and JavaScript as part of DecodeLabs Internship Project 4.
+
+The project showcases a modern interactive registration form with features like input validation, password strength validation, confirm password checking, duplicate email and phone number validation using localStorage, and password show/hide toggle functionality using JavaScript DOM manipulation.
+
+# Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+
+# Features
+
+* Responsive Design
+* Form Validation
+* Email Validation
+* Phone Number Validation
+* Password Strength Validation
+* Confirm Password Validation
+* Duplicate Email Check
+* Duplicate Phone Number Check
+* Password Show/Hide Toggle
+* Error Messages
+* Success Message
+* localStorage Implementation
+* JavaScript DOM Manipulation
+* Interactive User Interface
+
 ## How to Run the Project
 
 ### Step 1: Open the GitHub Repository
