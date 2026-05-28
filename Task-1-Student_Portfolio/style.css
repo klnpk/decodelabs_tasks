@@ -1,0 +1,298 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+
+body{
+    font-family:'Poppins', sans-serif;
+    line-height:1.6;
+    color:#333;
+    background:#ffffff0c;
+}
+
+/* CONTAINER */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* HEADER */
+
+.header{
+    background:#ffffff;
+    padding:20px 0;
+    border-bottom:1px solid #eee;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* LOGO */
+
+.logo{
+    font-size:32px;
+    font-weight:700;
+    color:#111;
+}
+
+/* NAV LINKS */
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:35px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#2f4f4f;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#00ff95;
+}
+
+/* HERO SECTION */
+
+.hero{
+    padding:80px 0;
+    background:#f7f7f7;
+}
+
+/* GRID FOR MACRO LAYOUT */
+
+.hero-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+    align-items:center;
+}
+
+/* HERO TEXT */
+
+.hero-text h2{
+    font-size:28px;
+    margin-bottom:10px;
+    color:#1100ff78;
+}
+
+.hero-text h1{
+    font-size:55px;
+    margin-bottom:20px;
+    color:#111;
+}
+
+.hero-text p{
+    font-size:18px;
+    margin-bottom:30px;
+    color:#111;
+}
+
+/* BUTTON */
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#ff7a00;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#e06700;
+}
+
+/* HERO IMAGE */
+
+.hero-image img{
+    width:100%;
+    border-radius:10px;
+    object-fit:cover;
+}
+
+/* ABOUT SECTION */
+
+.about{
+    padding:80px 0;
+}
+
+/* GRID */
+
+.about-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+    align-items:center;
+}
+
+.about-image img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.about-text h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.about-text p{
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+/* SECTION TITLES */
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+/* SKILLS */
+
+.skills{
+    padding:80px 0;
+    background:#ebe8ed;
+}
+
+/* GRID */
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+/* CARD */
+
+.card{
+    background:rgb(232, 226, 196);
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.card li{
+
+  margin-bottom:8px;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+/* PROJECTS */
+
+.projects{
+    padding:80px 0;
+}
+
+/* GRID */
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+/* PROJECT CARD */
+
+.project-card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card img{
+    width:100%;
+    max-height:220px;
+    object-fit:contain;
+    display:block;
+    margin:auto;
+    background:white;
+}
+
+.project-card h3{
+    padding:20px 20px 10px;
+}
+
+.project-card p{
+    padding:0 20px 20px;
+}
+
+/* CONTACT */
+
+.contact{
+    background:oklch(63.276% 0.01654 151.824);
+    color:hsl(0, 0%, 100%);
+    text-align:center;
+    padding:80px 0;
+}
+
+.contact h2{
+    margin-bottom:20px;
+    font-size:40px;
+}
+
+.contact p{
+    margin:10px 0;
+    color:hsl(270, 100%, 100%);
+}
+
+/* FOOTER */
+
+.footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px 0;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero-container,
+    .about-container{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .hero-text h1{
+        font-size:40px;
+    }
+
+    .section-title{
+        font-size:32px;
+    }
+}
