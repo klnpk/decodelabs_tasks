@@ -1,6 +1,6 @@
 # decodelabs_tasks
 
-# Project Title
+# Task-1 Project Title
 Student Portfolio Website
 
 ## Description
@@ -21,6 +21,25 @@ The project showcases a modern student portfolio design with sections like Home,
 - Skills Section
 - Project Section
 - Contact Section
+
+- # Task-2 Project Title
+Taste of Tej Restaurant 
+
+## Description
+This is a responsive restaurant webpage layout developed using HTML5 and CSS3 as part of DecodeLabs Internship Task 2.
+
+The project showcases a modern restaurant website design with sections like Home, About, Menu, and Contact.
+
+## Technologies Used
+- HTML5
+- CSS3
+
+## Features
+- Responsive Design
+- Navigation Bar
+- CSS Flexbox Layout
+- CSS Grid Layout
+- Responsive Design using Media Queries
 
 ## How to Run the Project
 
