@@ -22,7 +22,7 @@ The project showcases a modern student portfolio design with sections like Home,
 - Project Section
 - Contact Section
 
-- # Task-2 Project Title
+# Task-2 Project Title
 Taste of Tej Restaurant 
 
 ## Description
@@ -40,6 +40,32 @@ The project showcases a modern restaurant website design with sections like Home
 - CSS Flexbox Layout
 - CSS Grid Layout
 - Responsive Design using Media Queries
+
+# Task-3 Project Title
+
+Interactive To-Do List App
+
+# Description
+
+This is a responsive interactive To-Do List web application developed using HTML5, CSS3, and JavaScript as part of DecodeLabs Internship Task 3.
+
+The project showcases a modern interactive webpage with features like adding tasks, deleting tasks, marking task as completed and Dark Mode Toggle functionality using JavaScript DOM manipulation.
+
+# Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+
+# Features
+
+* Responsive Design
+* Add New Tasks
+* Delete Tasks
+* Mark Tasks as Completed
+* Dark Mode Toggle
+* JavaScript DOM Manipulation
+* Interactive User Interface
 
 ## How to Run the Project
 
