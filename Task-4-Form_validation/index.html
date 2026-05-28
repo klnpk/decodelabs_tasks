@@ -1,1 +1,151 @@
-<h1>task 4</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Form Validation Project</title>
+
+  <!-- CSS FILE -->
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONT AWESOME -->
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  >
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h2>Registration Form</h2>
+
+    <form id="myForm">
+
+      <!-- FULL NAME -->
+
+      <div class="input-group">
+
+        <label>Full Name</label>
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+        >
+
+        <div class="error" id="nameError"></div>
+
+      </div>
+
+      <!-- EMAIL -->
+
+      <div class="input-group">
+
+        <label>Email</label>
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+        >
+
+        <div class="error" id="emailError"></div>
+
+      </div>
+
+      <!-- PHONE -->
+
+      <div class="input-group">
+
+        <label>Phone Number</label>
+
+        <input
+          type="text"
+          id="phone"
+          placeholder="Enter phone number"
+        >
+
+        <div class="error" id="phoneError"></div>
+
+      </div>
+
+      <!-- PASSWORD -->
+
+      <div class="input-group">
+
+        <label>Password</label>
+
+        <div class="password-box">
+
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+          >
+
+          <i
+            class="fa-solid fa-eye"
+            id="togglePassword"
+          ></i>
+
+        </div>
+
+        <div class="error" id="passwordError"></div>
+
+      </div>
+
+      <!-- CONFIRM PASSWORD -->
+
+      <div class="input-group">
+
+        <label>Confirm Password</label>
+
+        <div class="password-box">
+
+          <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm password"
+          >
+
+          <i
+            class="fa-solid fa-eye"
+            id="toggleConfirmPassword"
+          ></i>
+
+        </div>
+
+        <div class="error" id="confirmError"></div>
+
+      </div>
+
+      <!-- BUTTON -->
+
+      <button type="submit">Submit</button>
+
+      <!-- SUCCESS MESSAGE -->
+
+      <div class="success" id="successMessage"></div>
+
+    </form>
+
+  </div>
+
+  <!-- JS FILE -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
